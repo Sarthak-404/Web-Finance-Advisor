@@ -4,3 +4,4 @@ duckduckgo-search
 langchain_groq
 gunicorn
 flask
+flask_cors
