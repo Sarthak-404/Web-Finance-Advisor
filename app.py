@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.prompts import ChatPromptTemplate
-
+from flask_cors import CORS
+CORS(app)
 load_dotenv()
 groq_api_key = os.getenv('GROQ_API_KEY')
 
