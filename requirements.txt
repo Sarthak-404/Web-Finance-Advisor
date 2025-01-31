@@ -2,5 +2,5 @@ langchain
 langchain_community
 duckduckgo-search
 langchain_groq
-streamlit
+gunicorn
 flask
